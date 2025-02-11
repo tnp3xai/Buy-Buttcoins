@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+#clicker {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	padding: 50px;
+	background: #f00;
+}
+
+p {
+	margin-top: 70px;
+	text-align: center;
+	font-size: 25px;
+	color: #fff;
+}
+
+@font-face {
+	font-family: Comic Sans;
+	src: url(Ldfcomicsans-jj7l.ttf);
+}
+
+@keyframes blinker {
+	50% {
+		opacity: 0.0;
+	}
+}
+
+h1 {
+	animation: blinker step-start 1s infinite;
+	font-family: Comic Sans;
+	font-size: 72pt;
+	letter-spacing: 4px;
+	color: #ff0000;
+}
